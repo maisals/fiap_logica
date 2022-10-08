@@ -6,6 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Versionamento</title>
+
+    <script>
+        // estrutura de repetição WHILE
+        /* 
+        while(sentença){
+            ...código
+        }
+       
+       estrutura de repetição FOR
+       for(inicio; sentença; incremento) { //fica na condição enquanto a sentença for verdadeira
+           ...
+       }
+       
+e      strutura de repetição DO WHILE // a verificação é feita no final (executa 1 x e depois faz a     verificação)
+       do {
+           ...
+       } while(sentença)
+           ...
+        */
+
+
+        let contador = 5;
+        console.log("Contador While: " + contador);
+        while (contador <= 4) {
+            alert("Contador While:" + contador);
+            //contador = contador + 1;
+            contador++;
+            //contador+=1; //contador+=2
+            console.log("Contador While: " + contador);
+        }
+
+
+        for (let inicio = 5; inicio <= 4; inicio++) {
+            console.log("Contador FOR: " + inicio);
+            alert(inicio);
+
+        }
+
+        let teste = 5;
+        do {
+            console.log("Contador DO WHILE: " + teste);
+            alert(teste);
+            teste++;
+        } while (teste <= 4);
+    </script>
 </head>
 
 <body>
